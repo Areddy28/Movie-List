@@ -16,14 +16,7 @@ namespace MovieList
             this.Category = Category;
         }
 
-        public override string ToString()
-        {
-            string output = $"Title: {Title} \n";
-            output += $"Genre: {Category}\n";
-            
-
-            return output; ;
-        }
+        
 
     }
 }

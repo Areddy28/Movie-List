@@ -15,7 +15,7 @@ namespace MovieList
 
         public MoviesDB()
         {
-            Movie.Add(new Movies("Star Wars", "Scfi"));
+            Movie.Add(new Movies("Star Wars", "Scifi"));
             Movie.Add(new Movies("Coach Carter", "Sports"));
             Movie.Add(new Movies("Billy Madison", "Comedy"));
             Movie.Add(new Movies("Yes Man", "Comedy"));
@@ -33,8 +33,8 @@ namespace MovieList
             for (int i = 0; i < Movie.Count; i++)
             {
                 Movies t = Movie[i];
-                Console.WriteLine($"{i}: {t}");
-                Console.WriteLine($"{i}: {t}");
+                Console.WriteLine($"{i}: {t.Title}");
+                Console.WriteLine($"{i}: {t.Category}");
             }
         }
 
