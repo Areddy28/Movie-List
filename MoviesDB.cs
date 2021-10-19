@@ -25,6 +25,7 @@ namespace MovieList
             Movie.Add(new Movies("Conjuring", "Horror"));
             Movie.Add(new Movies("Remeber the Titans", "Sports"));
             Movie.Add(new Movies("Serious Case of Benjaminin Button", "Drama"));
+
         }
 
         public void PrintMovie()
@@ -32,8 +33,8 @@ namespace MovieList
             for (int i = 0; i < Movie.Count; i++)
             {
                 Movies t = Movie[i];
-                Console.WriteLine($"{i}: {t.Title}");
-                Console.WriteLine($"{i}: {t.Category}");
+                Console.WriteLine($"{i}: {t}");
+                Console.WriteLine($"{i}: {t}");
             }
         }
 
@@ -59,6 +60,8 @@ namespace MovieList
 
             return input;
         }
+
+        
 
     }
 }

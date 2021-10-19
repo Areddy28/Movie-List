@@ -21,6 +21,8 @@ namespace MovieList
 
                 movieDB.SearchCategory(movieDB.Movie, category);
 
+                
+
                 Console.WriteLine("Continue? (y/n)");
 
 
